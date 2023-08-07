@@ -1,0 +1,70 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ #registraion-section{
+    background-image: linear-gradient(#380036,#0cbaba);
+ }
+.registration-container{
+    width: 90%;
+    margin: 0 auto;  
+}
+.registration-form{
+    width:60%;
+    border: 1px solid;
+    margin: auto;
+    height: 100vh;
+    padding: 0px 10px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.6) ;
+}
+.regi-head{
+    padding: 10px;
+    border-bottom: 2px solid;
+    color: white;
+}
+
+.regi-col label{
+    color: white;
+}
+.regi-col input{
+    width: 100%;
+    padding: 15px;
+}
+.input-felid{
+    padding: 20px 0px;
+}
+.gender label{
+    padding: 0px 10px;
+    color: white;
+}
+.gender h3{
+    padding: 10px 0px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.reg-link{
+   margin:0 auto;
+   width: 200px;
+    
+}
+.reg-link a{
+    color: white;
+}
+.reg-link:hover{
+    background-image: linear-gradient(to right ,#61045f,#aa076b);
+}
+.registration-form p{
+    padding: 15px 0px 20px 0px;
+    color: white;
+}
+button{
+    width:200px;
+    height: 40px;
+    margin: 0 auto;
+    
+}

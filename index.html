@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="media.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section id="registraion-section">
+         <div class="registration-container">
+             <form class="registration-form" name="form" onsubmit="return  formvalidate()">
+                 <div class="regi-head">
+                     <h1>Registration</h1>
+                 </div>
+                 <div class="name-row">
+                     <div class="regi-col">
+                                 <div class="input-felid">
+                                     <label for="first-name">First Name</label><br>
+                                          <input type="text" id="first-name" placeholder="Enter firstname">
+                                          <br><span  id ="firstname-span"style="color:red;display: none;">Please Enter the FirstName </span> 
+                                    
+                                 </div>
+                                
+                                 <div class="input-felid">
+                                     <label for="reg-email">Email</label><br>
+                                         <input type="email" id="reg-email" placeholder="Enter Your Valid email address"> <br>
+                                         <span  id ="email-span"style="color:red;display: none;">Please Enter the Email </span><br>
+                                         <br><span  id ="email11-span"style="color:red;display: none;">Please Enter the @ corect the charater </span> 
+                                 </div>
+
+                                 <div class="input-felid">
+                                    <label for="reg-password">Password</label><br>
+                                        <input type="password" id="reg-password" placeholder="Enter new password"> <br>
+                                        <span  id ="password-span"style="color:red;display: none;">Please Enter the password </span><br>
+                                        <span  id ="password1-span"style="color:red;display: none;">Please Enter the mimiman 8 character</span>
+                                        
+                                </div>
+                                    
+                      </div>          
+                      <div class="regi-col">
+                        <div class="input-felid">
+                            <label for="last-name">Last Name</label><br>
+                                 <input type="text" id="last-name" placeholder="Enter firstname"> <br>
+                                 <span  id ="lastname-span"style="color:red;display: none;">Please Enter the last name</span>
+                           
+                        </div>
+                       
+                        <div class="input-felid">
+                            <label for="reg-phone">Phone Number</label><br>
+                                <input type="tel" id="reg-phone" placeholder="Enter Your Valid email address"> <br>
+                                <span  id ="phone-number-span"style="color:red;display: none;">Please Enter the phone number</span><br>
+                                <span  id ="phone1-number-span"style="color:red;display: none;">Please Enter the valid Phone number</span><br>
+
+                        </div>
+
+                        <div class="input-felid">
+                           <label for="reg-confirmpassword">Conirm Password</label><br>
+                               <input type="password" id="reg-confirmpassword" placeholder="Enter new password"> <br>
+                               <span  id ="conformpassword-span"style="color:red;display: none;">Please Enter the  conformpassword </span><br>
+                                        <span  id ="conformmpassword1-span"style="color:red;display: none;">Please Enter the mimiman 8 character</span>
+                       </div>
+                           
+             </div>          
+            </div>
+                 <div class="gender">
+                    <h3>Gender</h3>
+                     <input type="radio" id="male" name="gender"><label for="male">Male</label>
+                     <input type="radio" id="female" name="gender"><label for="female">FeMale</label>
+                     <input type="radio" id="other" name="gender"><label for="other">Others</label><br>
+                     <span  id ="gender-span"style="color:red;display: none;">Please fill the gender </span>
+                </div>
+                     <p>BY Clicking sing up you agree to our <a href="#">Terms ,privancy pollicy</a>amd <a href="#">cookimg policy</a>you may 
+                        recive SMS nodification form is and can out at any time
+                     </p>
+                 <div class="reg-link">
+                     <button type="submit"> Register</button>
+                 </div>
+             </form>
+             
+         </div>
+     </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
